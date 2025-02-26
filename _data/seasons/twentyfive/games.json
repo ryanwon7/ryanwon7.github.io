@@ -44,6 +44,7 @@
     "stage": "reg",
     "type": "Regular Season Week 2",
     "fin": "yes",
+    "ot": "(OT)",
     "home_score": 46,
     "away_score": 47,
   },

@@ -28,8 +28,8 @@ $(document).ready( function () {
         paging: false,
         searching: false,
         info: false,
-        order: [[ 3, "asc" ]],
-        columnDefs: [ { orderable: false, targets: [1, 4] }]
+        order: [[ 2, "asc" ]],
+        columnDefs: [ { orderable: false, targets: [1, 3] }]
     });
     } );
 

@@ -12,15 +12,13 @@ datatable: true
 <table class="display3">
   <colgroup>
     <col class="fifty"/>
+    <col class="thirty"/>
     <col class="twenty"/>
-    <col class="fifteen"/>
-    <col class="fifteen"/>
   </colgroup>
   <thead>
     <tr>
       <th>Matchup</th>
-      <th>Stage</th>
-      <th>Date and Time</th>
+      <th>Date</th>
       <th>Result</th>
     </tr>
   </thead>
@@ -31,10 +29,13 @@ datatable: true
 	{% assign away = site.data.seasons.twentyfive.teams[match.away_team_name] %}
     <tr>
       <td><b>{{home.name}} vs {{away.name}}</b></td>
-      <td>{{match.type}}</td>
-      <td>{{match.short_date}}, {{match.time}}</td>
+      <td>{{match.type}}, {{match.short_date}}</td>
       {% if match.fin == "yes" %}
-      <td>{{home.tag}} {{match.home_score}} - {{match.away_score}} {{away.tag}}</td>
+      {% if match.home_score > match.away_score %}
+      <td>{{home.tag}} Win, {{match.home_score}}-{{match.away_score}} {{match.ot}}</td>
+      {% else %}
+      <td>{{away.tag}} Win, {{match.away_score}}-{{match.home_score}} {{match.ot}}</td>
+      {% endif %}
       {% else %}
       <td> TBD </td>
       {% endif %}
