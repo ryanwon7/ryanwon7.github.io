@@ -1,0 +1,71 @@
+{
+	"miraclemakers":
+	{
+		"team_id": 1,
+		"name": "Miracle Makers",
+		"tag": "MM",
+		"captain": "Sahn Yoon",
+		"season": 2025,
+		"wins": 2,
+		"losses": 1,
+		"seed": 0,
+		"players":
+		[{"name": "Sahn Yoon", "player_id": 41},
+		{"name": "Adin Kim", "player_id": 26},
+		{"name": "Alan Moon", "player_id": 22},
+		{"name": "Jason Lee", "player_id": 18},
+		{"name": "Andy Moon", "player_id": 23}]
+	},
+	"courtsidedisciples":
+	{
+		"team_id": 2,
+		"name": "Courtside Disciples",
+		"tag": "CD",
+		"captain": "Ryan Won",
+		"season": 2025,
+		"wins": 0,
+		"losses": 3,
+		"seed": 0,
+		"players":
+		[{"name": "Ryan Won", "player_id": 38},
+		{"name": "Alex Hong", "player_id": 49},
+		{"name": "Ryan Lee", "player_id": 19},
+		{"name": "Brandon Oh", "player_id": 53},
+		{"name": "Jae Park", "player_id": 57},
+		{"name": "Joon Kim", "player_id": 36}]
+	},
+	"holyhoopers":
+	{
+		"team_id": 3,
+		"name": "Holy Hoopers",
+		"tag": "HH",
+		"captain": "Caleb Jung",
+		"season": 2025,
+		"wins": 1,
+		"losses": 2,
+		"seed": 0,
+		"players":
+		[{"name": "Caleb Jung", "player_id": 5},
+		{"name": "Joseph Jung", "player_id": 6},
+		{"name": "Jason Park", "player_id": 58},
+		{"name": "Jacob Moon", "player_id": 45},
+		{"name": "Justin Hong", "player_id": 56}]
+	},
+	"fastbreakdisciples":
+	{
+		"team_id": 4,
+		"name": "Fast Break Disciples",
+		"tag": "FBD",
+		"captain": "Eric Moon",
+		"season": 2025,
+		"wins": 3,
+		"losses": 0,
+		"seed": 0,
+		"players":
+		[{"name": "Eric Moon", "player_id": 26},
+		{"name": "Isaac Sohn", "player_id": 34},
+		{"name": "Jayden Kim", "player_id": 59},
+		{"name": "Johnny Zhang", "player_id": 60},
+		{"name": "Nathan Park", "player_id": 61}]
+	}
+}
