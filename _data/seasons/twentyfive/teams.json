@@ -11,7 +11,7 @@
 		"seed": 0,
 		"players":
 		[{"name": "Sahn Yoon", "player_id": 41},
-		{"name": "Adin Kim", "player_id": 26},
+		{"name": "Adin Kim", "player_id": 7},
 		{"name": "Alan Moon", "player_id": 22},
 		{"name": "Jason Lee", "player_id": 18},
 		{"name": "Andy Moon", "player_id": 23}]
@@ -30,9 +30,8 @@
 		[{"name": "Ryan Won", "player_id": 38},
 		{"name": "Alex Hong", "player_id": 49},
 		{"name": "Ryan Lee", "player_id": 19},
-		{"name": "Brandon Oh", "player_id": 53},
 		{"name": "Jae Park", "player_id": 57},
-		{"name": "Joon Kim", "player_id": 36}]
+		{"name": "Joon Kim", "player_id": 46}]
 	},
 	"holyhoopers":
 	{
@@ -67,5 +66,25 @@
 		{"name": "Jayden Kim", "player_id": 59},
 		{"name": "Johnny Zhang", "player_id": 60},
 		{"name": "Nathan Park", "player_id": 61}]
+	},
+	"reg1st":
+	{
+		"team_id": 0,
+		"name": "Regular Season 1st"
+	},
+	"reg2nd":
+	{
+		"team_id": 0,
+		"name": "Regular Season 2nd"
+	},
+	"reg3rd":
+	{
+		"team_id": 0,
+		"name": "Regular Season 3rd"
+	},
+	"sfwin":
+	{
+		"team_id": 0,
+		"name": "Semifinal Winner"
 	}
 }

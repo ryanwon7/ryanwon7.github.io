@@ -8,13 +8,13 @@ script: standsched
 layout: default
 datatable: true
 ---
-<h2> {{page.year}} Regular Season Standings </h2>
+<h2>Regular Season Standings ({{page.year}})</h2>
 This year, the top three teams qualify for playoffs. 4th place will be eliminated. The 1st place regular season team gets a bye to the finals.
 <table class="display">
-  <caption style="text-align: center;"> <b>PF</b> = Points For/Scored, <b>PA</b> = Points Against, <b>+/-</b> = Point Differential<br><b>Tiebreakers</b>: 1.  Head to Head Record  2. Point Differential  3. Points  For </caption>
+  <caption style="text-align: center;"> <b>PF</b> = Points For, <b>PA</b> = Points Against, <b>+/-</b> = Point Differential<br><b>Tiebreakers</b>: 1.  Head to Head Record  2. Point Differential  3. Points  For </caption>
   <colgroup>
           <col class="twenty"/>
-          <col class="ten"/>
+          <col class="twenty"/>
           <col class="ten"/>
           <col class="ten"/>
           <col class="ten"/>
@@ -24,9 +24,9 @@ This year, the top three teams qualify for playoffs. 4th place will be eliminate
   <thead>
     <tr>
       <th>Team</th>
-      <th>Tag</th>
-      <th>Wins</th>
-      <th>Loss</th>
+      <th>Captain</th>
+      <th>W</th>
+      <th>L</th>
       <th>PF</th>
       <th>PA</th>
       <th>+/-</th>
@@ -35,6 +35,7 @@ This year, the top three teams qualify for playoffs. 4th place will be eliminate
   <tbody>
    {% for team_hash in site.data.seasons.twentyfive.teams %}
    {% assign team = team_hash[1] %}
+   {% if team.team_id != 0 %}
 
    {% assign pf = 0 %}
    {% assign pa = 0 %}
@@ -52,13 +53,14 @@ This year, the top three teams qualify for playoffs. 4th place will be eliminate
    {% endfor %}
    <tr>
    	<td><a href="/{{page.year}}/teams/team{{team.team_id}}">{{team.name}}</a></td>
-   	<td>{{team.tag}}</td>
+   	<td>{{team.captain}}</td>
    	<td>{{team.wins}}</td>
    	<td>{{team.losses}}</td>
    	<td>{{pf}}</td>
    	<td>{{pa}}</td>
    	<td>{{pf| minus: pa}}</td>
    </tr>
+   {% endif %}
    {% endfor %}
   </tbody>
 </table>

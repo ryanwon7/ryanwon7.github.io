@@ -62,3 +62,18 @@ $(document).ready( function () {
         ]
     });
     } );
+
+$(document).ready( function () {
+    $('table.display6').DataTable({
+        paging: false,
+        searching: false,
+        info: false,
+        order: [[ 2, "dsc" ], [4, "dsc"]],
+        aoColumnDefs: [
+            {
+                orderSequence: ["desc", "asc"],
+                aTargets: ['_all']
+            }
+        ]
+    });
+    } );

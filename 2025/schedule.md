@@ -8,7 +8,7 @@ script: standsched
 layout: default
 datatable: true
 ---
-<h2> {{page.year}} Schedule and Scores </h2>
+<h2>Schedule and Scores ({{page.year}})</h2>
 <table class="display3">
   <colgroup>
     <col class="fifty"/>
@@ -28,16 +28,20 @@ datatable: true
 	{% assign home = site.data.seasons.twentyfive.teams[match.home_team_name] %}
 	{% assign away = site.data.seasons.twentyfive.teams[match.away_team_name] %}
     <tr>
-      <td><b>{{home.name}} vs {{away.name}}</b></td>
+      {% if match.fin == "no" %}
+      <td>{{home.name}} <b>vs</b> {{away.name}}</td>
       <td>{{match.type}}, {{match.short_date}}</td>
-      {% if match.fin == "yes" %}
-      {% if match.home_score > match.away_score %}
-      <td>{{home.tag}} Win, {{match.home_score}}-{{match.away_score}} {{match.ot}}</td>
-      {% else %}
-      <td>{{away.tag}} Win, {{match.away_score}}-{{match.home_score}} {{match.ot}}</td>
-      {% endif %}
-      {% else %}
       <td> TBD </td>
+      {% else %}
+      {% if match.home_score > match.away_score %}
+      <td><u>{{home.name}}</u> <b>vs</b> {{away.name}}</td>
+      <td>{{match.type}}, {{match .short_date}}</td>
+      <td><u><b>{{match.home_score}}</b></u>-{{match.away_score}} {{match.ot}}</td>
+      {% else %}
+      <td>{{home.name}} <b>vs</b> <u>{{away.name}}</u></td>
+      <td>{{match.type}}, {{match.short_date}}</td>
+      <td>{{match.home_score}}-<u><b>{{match.away_score}}</b></u> {{match.ot}}</td>
+      {% endif %}
       {% endif %}
     </tr>
     {% endfor %}
