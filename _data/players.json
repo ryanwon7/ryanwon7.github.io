@@ -11,22 +11,29 @@
       "player_id": 2,
       "pos": "C",
       "champ": "y",
-      "active": "Ret"
+      "active": "Ret",
+      "seasons":
+      [{"year": 2022, "team_id": 4, "pos": "C", "group": "Adults"},
+        {"year": 2020, "team_id": 5, "pos": "C", "group": "Adults"}]
     },
     {
       "player_name": "Calvin Hong",
       "player_id": 3,
-      "pos": "G",
-      "active": "False"
+      "active": "False",
+      "seasons":
+      [{"year": 2022, "team_id": 1, "pos": "G", "group": "Youth"},
+        {"year": 2020, "team_id": 4, "pos": "G", "group": "Youth"}]
     },
     {
       "player_name": "Kyle Ju",
       "player_id": 4,
-      "pos": "PF",
       "award": "y",
       "awards":
       [{"year": 2020, "edition": "(11th)", "name": "Most Improved Player"}],
-      "active": "Ret"
+      "active": "Ret",
+      "seasons":
+      [{"year": 2022, "team_id": 2, "pos": "PF", "group": "College"},
+        {"year": 2020, "team_id": 1, "pos": "PF", "group": "Youth"}]
     },
     {
       "player_name": "Caleb Jung",
@@ -74,56 +81,72 @@
     {
       "player_name": "Bryce Kim",
       "player_id": 8,
-      "pos": "C",
-      "active": "Ret"
+      "active": "Ret",
+      "seasons":
+      [{"year": 2024, "team_id": 1, "pos": "C", "group": "College"},
+        {"year": 2022, "team_id": 2, "pos": "C", "group": "College"},
+        {"year": 2020, "team_id": 2, "pos": "C", "group": "College"}]
     },
     {
       "player_name": "Dan Kim",
       "player_id": 9,
-      "pos": "PF",
       "champ": "y",
-      "active": "Ret"
+      "active": "Ret",
+      "seasons":
+      [{"year": 2022, "team_id": 4, "pos": "F", "group": "College"},
+        {"year": 2020, "team_id": 4, "pos": "F", "group": "College"}]
     },
     {
       "player_name": "Daniel Kim",
       "player_id": 10,
-      "pos": "G",
-      "active": "Ret"
+      "active": "Ret",
+      "seasons":
+      [{"year": 2023, "team_id": 4, "pos": "G", "group": "Youth"}]
     },
     {
       "player_name": "Domin Kim",
       "player_id": 11,
-      "pos": "G",
-      "active": "Ret"
+      "active": "Ret",
+      "seasons":
+      [{"year": 2022, "team_id": 2, "pos": "G", "group": "Youth"}]
     },
     {
       "player_name": "Edward Kim",
       "player_id": 12,
-      "pos": "G",
       "champ": "y",
-      "active": "Ret"
+      "active": "Ret",
+      "seasons":
+      [{"year": 2020, "team_id": 6, "pos": "G", "group": "Youth"}]
     },
     {
       "player_name": "Eugene Kim",
       "player_id": 13,
       "pos": "SF",
-      "active": "Ret"
+      "active": "Ret",
+      "seasons":
+      [{"year": 2022, "team_id": 1, "pos": "SF", "group": "College"},
+        {"year": 2020, "team_id": 3, "pos": "SF", "group": "College"}]
     },
     {
       "player_name": "Ezekiel Kim",
       "player_id": 14,
-      "pos": "G",
       "champ": "y",
-      "active": "Ret"
+      "active": "Ret",
+      "seasons":
+      [{"year": 2022, "team_id": 4, "pos": "G", "group": "College"},
+        {"year": 2020, "team_id": 2, "pos": "G", "group": "College"}]
     },
     {
       "player_name": "Daniel Lee",
       "player_id": 15,
-      "pos": "F",
       "award": "y",
       "awards":
       [{"year": 2022, "edition": "(12th)", "name": "Rookie of the Year"}],
-      "active": "False"
+      "active": "False",
+      "seasons":
+      [{"year": 2024, "team_id": 3, "pos": "F", "group": "College"},
+        {"year": 2023, "team_id": 3, "pos": "F", "group": "College"},
+        {"year": 2022, "team_id": 3, "pos": "F", "group": "Youth"}]
     },
     {
       "player_name": "David Lee",
@@ -135,7 +158,9 @@
       "player_name": "Hyunjae Lee",
       "player_id": 17,
       "pos": "SF",
-      "active": "Ret"
+      "active": "Ret",
+      "seasons":
+      [{"year": 2020, "team_id": 3, "pos": "SF", "group": "College"}]
     },
     {
       "player_name": "Jason Lee",
@@ -170,11 +195,15 @@
     {
       "player_name": "Urim Lee",
       "player_id": 20,
-      "pos": "G",
       "award": "y",
       "awards":
       [{"year": 2020, "edition": "(11th)", "name": "Sportmanship Award"}],
-      "active": "Ret"
+      "active": "Ret",
+      "seasons":
+      [{"year": 2024, "team_id": 5, "pos": "G", "group": "College"},
+        {"year": 2023, "team_id": 2, "pos": "G", "group": "Youth"},
+        {"year": 2022, "team_id": 2, "pos": "G", "group": "Youth"},
+        {"year": 2020, "team_id": 5, "pos": "F", "group": "Youth"}]
     },
     {
       "player_name": "Brandon McDonnel",
@@ -210,17 +239,22 @@
     {
       "player_name": "Daniel Moon",
       "player_id": 24,
-      "pos": "SG",
-      "active": "Ret"
+      "active": "Ret",
+      "seasons":
+      [{"year": 2020, "team_id": 4, "pos": "SG", "group": "Youth"}]
     },
     {
       "player_name": "David Moon",
       "player_id": 25,
-      "pos": "SF",
       "award": "y",
       "awards":
       [{"year": 2024, "edition": "(14th)", "name": "Most Improved"}],
-      "active": "Ret"
+      "active": "Ret",
+      "seasons":
+      [{"year": 2024, "team_id": 4, "pos": "SF", "group": "Youth"},
+        {"year": 2023, "team_id": 2, "pos": "SF", "group": "Youth"},
+        {"year": 2022, "team_id": 3, "pos": "SF", "group": "Youth"},
+        {"year": 2020, "team_id": 1, "pos": "SF", "group": "Youth"}]
     },
     {
       "player_name": "Eric Moon",
@@ -239,53 +273,65 @@
     {
       "player_name": "Min Oh",
       "player_id": 27,
-      "pos": "G",
       "champ": "y",
-      "active": "Ret"
+      "active": "Ret",
+      "seasons":
+      [{"year": 2020, "team_id": 6, "pos": "G", "group": "College"}]
     },
     {
       "player_name": "Abe Park",
       "player_id": 28,
-      "pos": "PG",
       "award": "y",
       "awards":
       [{"year": 2020, "edition": "(11th)", "name": "Most Valuable Player"}],
-      "active": "Ret"
+      "active": "Ret",
+      "seasons":
+      [{"year": 2020, "team_id": 4, "pos": "PG", "group": "College"}]
     },
     {
       "player_name": "Elijah Park",
       "player_id": 29,
-      "pos": "G",
       "award": "y",
       "awards":
       [{"year": 2022, "edition": "(12th)", "name": "Most Improved Player"}],
-      "active": "Ret"
+      "active": "Ret",
+      "seasons":
+      [{"year": 2022, "team_id": 2, "pos": "G", "group": "Youth"},
+        {"year": 2020, "team_id": 2, "pos": "G", "group": "Youth"}]
     },
     {
-      "player_name": "Jun Sung Park",
+      "player_name": "JunSung Park",
       "player_id": 30,
-      "pos": "G",
-      "active": "Ret"
+      "active": "Ret",
+      "seasons":
+      [{"year": 2022, "team_id": 5, "pos": "G", "group": "Youth"}]
     },
     {
       "player_name": "Paul Park",
       "player_id": 31,
-      "pos": "C",
       "champ": "y",
-      "active": "Ret"
+      "active": "Ret",
+      "seasons":
+      [{"year": 2022, "team_id": 4, "pos": "C", "group": "Adults"},
+        {"year": 2020, "team_id": 2, "pos": "C", "group": "Adults"}]
     },
     {
-      "player_name": "Yong Sang Park",
+      "player_name": "YongSang Park",
       "player_id": 32,
-      "pos": "C",
-      "active": "False"
+      "active": "False",
+      "seasons":
+      [{"year": 2022, "team_id": 1, "pos": "C", "group": "Adults"}]
     },
     {
       "player_name": "Daniel Ro",
       "player_id": 33,
       "pos": "PF",
       "champ": "y",
-      "active": "Ret"
+      "active": "Ret",
+      "seasons":
+      [{"year": 2023, "team_id": 1, "pos": "PF", "group": "Singles"},
+        {"year": 2022, "team_id": 5, "pos": "PF", "group": "Singles"},
+        {"year": 2020, "team_id": 2, "pos": "PF", "group": "College"}]
     },
     {
       "player_name": "Isaac Sohn",
@@ -307,14 +353,17 @@
     {
       "player_name": "Jiyoon Song",
       "player_id": 35,
-      "pos": "F",
-      "active": "False"
+      "active": "False",
+      "seasons":
+      [{"year": 2020, "team_id": 4, "pos": "F", "group": "College"}]
     },
     {
       "player_name": "Ian Sunwoo",
       "player_id": 36,
-      "pos": "PG",
-      "active": "Ret"
+      "active": "Ret",
+      "seasons":
+      [{"year": 2023, "team_id": 3, "pos": "PG", "group": "Singles"},
+        {"year": 2022, "team_id": 5, "pos": "G", "group": "Singles"}]
     },
     {
       "player_name": "James Won",
@@ -338,18 +387,22 @@
     {
       "player_name": "Jaiyup Yoo",
       "player_id": 39,
-      "pos": "F",
       "champ": "y",
       "award": "y",
       "awards":
       [{"year": 2023, "edition": "(13th)", "name": "Defensive Player of the Year"}],
-      "active": "False"
+      "active": "False",
+      "seasons":
+      [{"year": 2024, "team_id": 2, "pos": "F", "group": "Singles"},
+        {"year": 2023, "team_id": 2, "pos": "F", "group": "Singles"},
+        {"year": 2020, "team_id": 5, "pos": "F", "group": "College"}]
     },
     {
       "player_name": "David Yoon",
       "player_id": 40,
-      "pos": "SG",
-      "active": "False"
+      "active": "False",
+      "seasons":
+      [{"year": 2020, "team_id": 1, "pos": "SG", "group": "Singles"}]
     },
     {
       "player_name": "Sahn Yoon",
@@ -366,20 +419,23 @@
     {
       "player_name": "Timmy Sohn",
       "player_id": 42,
-      "pos": "SG",
-      "active": "Ret"
+      "active": "Ret",
+      "seasons":
+      [{"year": 2023, "team_id": 2, "pos": "SG", "group": "Youth"}]
     },
     {
       "player_name": "Daniel Kim",
       "player_id": 43,
-      "pos": "G",
-      "active": "Ret"
+      "active": "Ret",
+      "seasons":
+      [{"year": 2020, "team_id": 1, "pos": "G", "group": "Youth"}]
     },
     {
       "player_name": "Joshua Ha",
       "player_id": 44,
-      "pos": "F",
-      "active": "False"
+      "active": "False",
+      "seasons":
+      [{"year": 2023, "team_id": 4, "pos": "F", "group": "Youth"}]
     },
     {
       "player_name": "Jacob Moon",
@@ -405,16 +461,20 @@
       "player_name": "Christian Kim",
       "player_id": 47,
       "pos": "C",
-      "active": "False"
+      "active": "False",
+      "seasons":
+      [{"year": 2023, "team_id": 3, "pos": "PG", "group": "Singles"}]
     },
     {
       "player_name": "Jeremy Park",
       "player_id": 48,
-      "pos": "SF",
       "award": "y",
       "awards":
       [{"year": 2023, "edition": "(13th)", "name": "Sportmanship Award"}],
-      "active": "False"
+      "active": "False",
+      "seasons":
+      [{"year": 2024, "team_id": 1, "pos": "SF", "group": "Singles"},
+        {"year": 2023, "team_id": 3, "pos": "SF", "group": "Singles"}]
     },
     {
       "player_name": "Alex Hong",
@@ -432,48 +492,55 @@
     {
       "player_name": "John Hwang",
       "player_id": 50,
-      "pos": "G",
       "champ": "y",
-      "active": "Ret"
+      "active": "Ret",
+      "seasons":
+      [{"year": 2024, "team_id": 3, "pos": "G", "group": "Youth"},
+        {"year": 2023, "team_id": 1, "pos": "G", "group": "Youth"}]
     },
     {
       "player_name": "Minwoo Lee",
       "player_id": 51,
-      "pos": "PG",
       "champ": "y",
       "award": "y",
       "awards":
       [{"year": 2023, "edition": "(13th)", "name": "Most Valuable Player"}],
-      "active": "Ret"
+      "active": "Ret",
+      "seasons":
+      [{"year": 2023, "team_id": 1, "pos": "PG", "group": "Singles"}]
     },
     {
       "player_name": "Andrew Kim",
       "player_id": 52,
-      "pos": "G",
-      "active": "False"
+      "active": "False",
+      "seasons":
+      [{"year": 2024, "team_id": 1, "pos": "G", "group": "Youth"}]
     },
     {
       "player_name": "Brandon Oh",
       "player_id": 53,
-      "pos": "SF",
       "champ": "y",
       "award": "y",
       "awards":
       [{"year": 2024, "edition": "(14th)", "name": "Sportmanship Award"}],
-      "active": "False"
+      "active": "False",
+      "seasons":
+      [{"year": 2024, "team_id": 2, "pos": "SF", "group": "Youth"}]
     },
     {
       "player_name": "Jun Jang",
       "player_id": 54,
-      "pos": "SF",
       "champ": "y",
-      "active": "False"
+      "active": "False",
+      "seasons":
+      [{"year": 2024, "team_id": 2, "pos": "SF", "group": "Singles"}]
     },
     {
       "player_name": "Junhee Kim",
       "player_id": 55,
-      "pos": "G",
-      "active": "Ret"
+      "active": "Ret",
+      "seasons":
+      [{"year": 2024, "team_id": 3, "pos": "G", "group": "Youth"}]
     },
     {
       "player_name": "Justin Hong",
