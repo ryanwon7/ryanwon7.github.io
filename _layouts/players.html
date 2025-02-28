@@ -139,7 +139,7 @@ layout: default
   		{% for team_hash in site.data.seasons.twenty.teams %}
 			{% assign team = team_hash[1] %}
 			{% if team.team_id == season.team_id %}
-				<td><a href="/{{season.year}}/teams/team.team_id">{{team.name}}</a></td>
+				<td><a href="/{{season.year}}/teams/team{{team.team_id}}">{{team.name}}</a></td>
 				<td>{{team.wins}}</td>
 				<td>{{team.losses}}</td>
 				<td><a href="/{{season.year}}/playoffs">{{team.result}}</a></td>
