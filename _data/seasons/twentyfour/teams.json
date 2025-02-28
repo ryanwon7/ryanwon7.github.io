@@ -9,6 +9,7 @@
 		"wins": 0,
 		"losses": 4,
 		"seed": 5,
+		"result": "Lost SF",
 		"players":
 		[{"name": "Ryan Won", "player_id": 38},
 		{"name": "Adin Kim", "player_id": 26},
@@ -26,6 +27,7 @@
 		"wins": 3,
 		"losses": 1,
 		"seed": 1,
+		"result": "Champions",
 		"players":
 		[{"name": "Jaiyup Yoo", "player_id": 39},
 		{"name": "Alan Moon", "player_id": 22},
@@ -43,6 +45,7 @@
 		"wins": 1,
 		"losses": 3,
 		"seed": 4,
+		"result": "Lost QF",
 		"players":
 		[{"name": "Caleb Jung", "player_id": 5},
 		{"name": "Daniel Lee", "player_id": 15},
@@ -60,6 +63,7 @@
 		"wins": 3,
 		"losses": 1,
 		"seed": 3,
+		"result": "Lost SF",
 		"players":
 		[{"name": "Joseph Jung", "player_id": 6},
 		{"name": "Alex Hong", "player_id": 49},
@@ -74,6 +78,7 @@
 		"tag": "LEG",
 		"captain": "Sahn Yoon",
 		"season": 2024,
+		"result": "Lost Finals",
 		"wins": 3,
 		"losses": 1,
 		"seed": 2,

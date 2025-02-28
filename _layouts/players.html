@@ -1,0 +1,152 @@
+---
+layout: default
+---
+
+{% assign player_idx = page.id | minus: 1 %}
+{% assign players_dt = site.data.players.players %}
+{% assign player = players_dt[player_idx] %}
+
+<h3> Player: {{player.player_name}} </h3>
+<h5 style="margin:0"><u> Player Bio </u></h5>
+{% if player.active == "Ret" %}
+<p style="margin:0"> Status: Retired </p>
+<p style="margin:0"> Last Position: 
+{% elsif player.active == "False" %}
+<p style="margin:0"> Status: Inactive </p>
+<p style="margin:0"> Last Position: 
+{% else %}
+<p style="margin:0"> Status: Currently Playing </p>
+<p style="margin:0"> Group: {{player.seasons[0].group}} Group</p>
+<p style="margin:0">  Current Position: 
+{% endif %}
+{% if player.seasons[0].pos == "G" %}
+ Guard ({{player.seasons[0].pos}})</p>
+{% elsif player.seasons[0].pos == "PG" %}
+ Point Guard ({{player.seasons[0].pos}})</p>
+{% elsif player.seasons[0].pos == "SG" %}
+ Shooting Guard ({{player.seasons[0].pos}})</p>
+{% elsif player.seasons[0].pos == "F" %}
+ Forward ({{player.seasons[0].pos}})</p>
+{% elsif player.seasons[0].pos == "SF" %}
+ Small Forward ({{player.seasons[0].pos}})</p>
+{% elsif player.seasons[0].pos == "PF" %}
+ Power Forward ({{player.seasons[0].pos}})</p>
+{% elsif player.seasons[0].pos == "C" %}
+ Center ({{player.seasons[0].pos}})</p>
+ {% endif %}
+<p style="margin:0"> Seasons Played: {{player.seasons.size}}
+{% if player.active == "True" %}
+(Including Current)
+{% endif %}
+ </p>
+{% if player.champ == "y" %}
+	<br>
+	<p style="margin:0">Championships Won:</p>
+	{% assign champs_yr = site.data.champs.champs %}
+	{% for season in player.seasons %}
+		{% for champ in champs_yr %}
+			{% if season.year == champ.year %}
+				{% if season.team_id == champ.team_id %}
+					<p style="margin:0">&nbsp;&nbsp;&nbsp;&nbsp;- {{champ.year}} {{champ.edition}}, <a href="/{{champ.year}}/teams/team{{champ.team_id}}">{{champ.team_name}}</a></p>
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+	{% endfor %}
+{% endif %}
+{% if player.award == "y" %}
+	<br>
+	<p style="margin:0"> Awards Won: </p>
+	{% for award in player.awards %}
+		<p style="margin:0">&nbsp;&nbsp;&nbsp;&nbsp;- {{award.year}} {{award.edition}}, <a href="/{{award.year}}/awards">{{award.name}}</a></p>
+	{% endfor %}
+{% endif %}
+<br>
+<h5><u> Player History </u></h5>
+<table class="display6">
+  <colgroup>
+      <col class="fifteen"/>
+      <col class="thirty"/>
+      <col class="ten"/>
+      <col class="ten"/>
+      <col class="twentyfive"/>
+  </colgroup>
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Team</th>
+      <th>W</th>
+      <th>L</th>
+      <th>Result</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for season in player.seasons %}
+  	{% if season.year == 2025 %}
+  		<tr>
+  			<td> 2025 (15th) </td>
+  		{% for team_hash in site.data.seasons.twentyfive.teams %}
+			{% assign team = team_hash[1] %}
+			{% if team.team_id == season.team_id %}
+				<td><a href="/{{season.year}}/teams/team{{team.team_id}}">{{team.name}}</a></td>
+				<td>{{team.wins}}</td>
+				<td>{{team.losses}}</td>
+				<td>{{team.result}}</td>
+			{% endif %}
+		{% endfor %}
+		</tr>
+  	{% elsif season.year == 2024 %}
+  		<tr>
+  			<td> 2024 (14th) </td>
+  		{% for team_hash in site.data.seasons.twentyfour.teams %}
+			{% assign team = team_hash[1] %}
+			{% if team.team_id == season.team_id %}
+				<td><a href="/{{season.year}}/teams/team{{team.team_id}}">{{team.name}}</a></td>
+				<td>{{team.wins}}</td>
+				<td>{{team.losses}}</td>
+				<td><a href="/{{season.year}}/playoffs">{{team.result}}</a></td>
+			{% endif %}
+		{% endfor %}
+		</tr>
+  	{% elsif season.year == 2023 %}
+  		<tr>
+  			<td> 2023 (13th) </td>
+  		{% for team_hash in site.data.seasons.twentythree.teams %}
+			{% assign team = team_hash[1] %}
+			{% if team.team_id == season.team_id %}
+				<td><a href="/{{season.year}}/teams/team{{team.team_id}}">{{team.name}}</a></td>
+				<td>{{team.wins}}</td>
+				<td>{{team.losses}}</td>
+				<td><a href="/{{season.year}}/playoffs">{{team.result}}</a></td>
+			{% endif %}
+		{% endfor %}
+		</tr>
+  	{% elsif season.year == 2022 %}
+  		<tr>
+  			<td> 2022 (12th) </td>
+  		{% for team_hash in site.data.seasons.twentytwo.teams %}
+			{% assign team = team_hash[1] %}
+			{% if team.team_id == season.team_id %}
+				<td><a href="/{{season.year}}/teams/team{{team.team_id}}">{{team.name}}</a></td>
+				<td>{{team.wins}}</td>
+				<td>{{team.losses}}</td>
+				<td><a href="/{{season.year}}/playoffs">{{team.result}}</a></td>
+			{% endif %}
+		{% endfor %}
+		</tr>
+  	{% elsif season.year == 2020 %}
+  		<tr>
+  			<td> 2020 (11th) </td>
+  		{% for team_hash in site.data.seasons.twenty.teams %}
+			{% assign team = team_hash[1] %}
+			{% if team.team_id == season.team_id %}
+				<td><a href="/{{season.year}}/teams/team.team_id">{{team.name}}</a></td>
+				<td>{{team.wins}}</td>
+				<td>{{team.losses}}</td>
+				<td><a href="/{{season.year}}/playoffs">{{team.result}}</a></td>
+			{% endif %}
+		{% endfor %}
+		</tr>
+  	{% endif %}
+  {% endfor %}
+  </tbody>
+ </table>

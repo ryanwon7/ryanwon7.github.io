@@ -1,0 +1,28 @@
+{
+  "champs": [
+    {
+      "year": 2024,
+      "edition": "(14th)",
+      "team_id": 2,
+      "team_name": "Hunters"
+    },
+    {
+      "year": 2023,
+      "edition": "(13th)",
+      "team_id": 1,
+      "team_name": "Fish Taxi"
+    },
+    {
+      "year": 2022,
+      "edition": "(12th)",
+      "team_id": 4,
+      "team_name": "Taco Amigos"
+    },
+    {
+      "year": 2020,
+      "edition": "(11th)",
+      "team_id": 6,
+      "team_name": "Unending Prophets"
+    },
+  ]
+}

@@ -8,6 +8,7 @@
 		"season": 2025,
 		"wins": 2,
 		"losses": 1,
+		"result": "TBD",
 		"seed": 0,
 		"players":
 		[{"name": "Sahn Yoon", "player_id": 41},
@@ -25,6 +26,7 @@
 		"season": 2025,
 		"wins": 0,
 		"losses": 3,
+		"result": "TBD",
 		"seed": 0,
 		"players":
 		[{"name": "Ryan Won", "player_id": 38},
@@ -42,6 +44,7 @@
 		"season": 2025,
 		"wins": 1,
 		"losses": 2,
+		"result": "TBD",
 		"seed": 0,
 		"players":
 		[{"name": "Caleb Jung", "player_id": 5},
@@ -59,6 +62,7 @@
 		"season": 2025,
 		"wins": 3,
 		"losses": 0,
+		"result": "TBD",
 		"seed": 0,
 		"players":
 		[{"name": "Eric Moon", "player_id": 26},

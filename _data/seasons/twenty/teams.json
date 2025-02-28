@@ -9,6 +9,7 @@
 		"wins": 2,
 		"losses": 3,
 		"seed": 3,
+		"result": "Lost SF",
 		"players":
 		[{"name": "Sahn Yoon", "player_id": 41},
 		{"name": "Kyle Ju", "player_id": 4},
@@ -26,6 +27,7 @@
 		"wins": 1,
 		"losses": 4,
 		"seed": 6,
+		"result": "Lost QF",
 		"players":
 		[{"name": "Bryce Kim", "player_id": 8},
 		{"name": "Elijah Park", "player_id": 29},
@@ -44,6 +46,7 @@
 		"wins": 1,
 		"losses": 4,
 		"seed": 5,
+		"result": "Lost QF",
 		"players":
 		[{"name": "Caleb Jung", "player_id": 5},
 		{"name": "Eugene Kim", "player_id": 13},
@@ -62,6 +65,7 @@
 		"wins": 5,
 		"losses": 0,
 		"seed": 1,
+		"result": "Lost SF",
 		"players":
 		[{"name": "Dan Kim", "player_id": 9},
 		{"name": "Daniel Moon", "player_id": 24},
@@ -79,6 +83,7 @@
 		"wins": 4,
 		"losses": 1,
 		"seed": 2,
+		"result": "Lost Finals",
 		"players":
 		[{"name": "Jaiyup Yoo", "player_id": 39},
 		{"name": "Joseph Jung", "player_id": 6},
@@ -96,6 +101,7 @@
 		"wins": 2,
 		"losses": 3,
 		"seed": 4,
+		"result": "Champions",
 		"players":
 		[{"name": "Edward Kim", "player_id": 12},
 		{"name": "Ryan Lee", "player_id": 19},

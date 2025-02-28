@@ -4,13 +4,14 @@
       "player_name": "Andy Byun",
       "player_id": 1,
       "pos": "PF",
-      "active": "False"
+      "active": "Ret"
     },
     {
       "player_name": "Song Seng Geu",
       "player_id": 2,
       "pos": "C",
-      "active": "False"
+      "champ": "y",
+      "active": "Ret"
     },
     {
       "player_name": "Calvin Hong",
@@ -22,7 +23,10 @@
       "player_name": "Kyle Ju",
       "player_id": 4,
       "pos": "PF",
-      "active": "False"
+      "award": "y",
+      "awards":
+      [{"year": 2020, "edition": "(11th)", "name": "Most Improved Player"}],
+      "active": "Ret"
     },
     {
       "player_name": "Caleb Jung",
@@ -41,6 +45,9 @@
       "player_id": 6,
       "active_group": "College",
       "active": "True",
+      "award": "y",
+      "awards":
+      [{"year": 2020, "edition": "(11th)", "name": "Defensive Player of the Year"}],
       "seasons":
       [{"year": 2025, "team_id": 3, "pos": "F", "group": "College"},
        {"year": 2024, "team_id": 4, "pos": "F", "group": "College"},
@@ -52,7 +59,12 @@
       "player_name": "Adin Kim",
       "player_id": 7,
       "active_group": "College",
+      "champ": "y",
       "active": "True",
+      "champ": "y",
+      "award": "y",
+      "awards":
+      [{"year": 2024, "edition": "(14th)", "name": "Most Valuable Player"}],
       "seasons":
       [{"year": 2025, "team_id": 1, "pos": "SF", "group": "College"},
        {"year": 2024, "team_id": 1, "pos": "SF", "group": "College"},
@@ -63,67 +75,76 @@
       "player_name": "Bryce Kim",
       "player_id": 8,
       "pos": "C",
-      "active": "False"
+      "active": "Ret"
     },
     {
       "player_name": "Dan Kim",
       "player_id": 9,
       "pos": "PF",
-      "active": "False"
+      "champ": "y",
+      "active": "Ret"
     },
     {
       "player_name": "Daniel Kim",
       "player_id": 10,
       "pos": "G",
-      "active": "False"
+      "active": "Ret"
     },
     {
       "player_name": "Domin Kim",
       "player_id": 11,
       "pos": "G",
-      "active": "False"
+      "active": "Ret"
     },
     {
       "player_name": "Edward Kim",
       "player_id": 12,
       "pos": "G",
-      "active": "False"
+      "champ": "y",
+      "active": "Ret"
     },
     {
       "player_name": "Eugene Kim",
       "player_id": 13,
       "pos": "SF",
-      "active": "False"
+      "active": "Ret"
     },
     {
       "player_name": "Ezekiel Kim",
       "player_id": 14,
       "pos": "G",
-      "active": "False"
+      "champ": "y",
+      "active": "Ret"
     },
     {
       "player_name": "Daniel Lee",
       "player_id": 15,
       "pos": "F",
+      "award": "y",
+      "awards":
+      [{"year": 2022, "edition": "(12th)", "name": "Rookie of the Year"}],
       "active": "False"
     },
     {
       "player_name": "David Lee",
       "player_id": 16,
       "pos": "SF",
-      "active": "False"
+      "active": "Ret"
     },
     {
       "player_name": "Hyunjae Lee",
       "player_id": 17,
       "pos": "SF",
-      "active": "False"
+      "active": "Ret"
     },
     {
       "player_name": "Jason Lee",
       "player_id": 18,
       "active_group": "Youth",
       "active": "True",
+      "award": "y",
+      "awards":
+      [{"year": 2024, "edition": "(14th)", "name": "Most Valuable Player"}],
       "seasons":
       [{"year": 2025, "team_id": 1, "pos": "G", "group": "Youth"},
        {"year": 2024, "team_id": 5, "pos": "G", "group": "Youth"},
@@ -135,6 +156,10 @@
       "player_id": 19,
       "active_group": "College",
       "active": "True",
+      "champ": "y",
+      "award": "y",
+      "awards":
+      [{"year": 2024, "edition": "(14th)", "name": "Defensive Player of the Year"}],
       "seasons":
       [{"year": 2025, "team_id": 2, "pos": "C", "group": "College"},
        {"year": 2024, "team_id": 5, "pos": "C", "group": "College"},
@@ -146,19 +171,26 @@
       "player_name": "Urim Lee",
       "player_id": 20,
       "pos": "G",
-      "active": "False"
+      "award": "y",
+      "awards":
+      [{"year": 2020, "edition": "(11th)", "name": "Sportmanship Award"}],
+      "active": "Ret"
     },
     {
       "player_name": "Brandon McDonnel",
       "player_id": 21,
       "pos": "SF",
-      "active": "False"
+      "active": "Ret"
     },
     {
       "player_name": "Alan Moon",
       "player_id": 22,
       "active_group": "Youth",
+      "champ": "y",
       "active": "True",
+      "award": "y",
+      "awards":
+      [{"year": 2023, "edition": "(13th)", "name": "Most Improved Player"}],
       "seasons":
       [{"year": 2025, "team_id": 1, "pos": "G", "group": "Youth"},
        {"year": 2024, "team_id": 2, "pos": "G", "group": "Youth"},
@@ -179,18 +211,24 @@
       "player_name": "Daniel Moon",
       "player_id": 24,
       "pos": "SG",
-      "active": "False"
+      "active": "Ret"
     },
     {
       "player_name": "David Moon",
       "player_id": 25,
       "pos": "SF",
-      "active": "False"
+      "award": "y",
+      "awards":
+      [{"year": 2024, "edition": "(14th)", "name": "Most Improved"}],
+      "active": "Ret"
     },
     {
       "player_name": "Eric Moon",
       "player_id": 26,
       "active": "True",
+      "award": "y",
+      "awards":
+      [{"year": 2022, "edition": "(12th)", "name": "Defensive Player of the Year"}],
       "seasons":
       [{"year": 2025, "team_id": 4, "pos": "SF", "group": "College"},
        {"year": 2024, "team_id": 2, "pos": "SF", "group": "Youth"},
@@ -202,31 +240,39 @@
       "player_name": "Min Oh",
       "player_id": 27,
       "pos": "G",
-      "active": "False"
+      "champ": "y",
+      "active": "Ret"
     },
     {
       "player_name": "Abe Park",
       "player_id": 28,
       "pos": "PG",
-      "active": "False"
+      "award": "y",
+      "awards":
+      [{"year": 2020, "edition": "(11th)", "name": "Most Valuable Player"}],
+      "active": "Ret"
     },
     {
       "player_name": "Elijah Park",
       "player_id": 29,
       "pos": "G",
-      "active": "False"
+      "award": "y",
+      "awards":
+      [{"year": 2022, "edition": "(12th)", "name": "Most Improved Player"}],
+      "active": "Ret"
     },
     {
       "player_name": "Jun Sung Park",
       "player_id": 30,
       "pos": "G",
-      "active": "False"
+      "active": "Ret"
     },
     {
       "player_name": "Paul Park",
       "player_id": 31,
       "pos": "C",
-      "active": "False"
+      "champ": "y",
+      "active": "Ret"
     },
     {
       "player_name": "Yong Sang Park",
@@ -238,13 +284,19 @@
       "player_name": "Daniel Ro",
       "player_id": 33,
       "pos": "PF",
-      "active": "False"
+      "champ": "y",
+      "active": "Ret"
     },
     {
       "player_name": "Isaac Sohn",
       "player_id": 34,
       "active_group": "Youth",
+      "champ": "y",
       "active": "True",
+      "award": "y",
+      "awards":
+      [{"year": 2022, "edition": "(12th)", "name": "Most Valuable Player"},
+        {"year": 2020, "edition": "(11th)", "name": "Rookie of the Year"}],
       "seasons":
       [{"year": 2025, "team_id": 4, "pos": "G", "group": "Youth"},
        {"year": 2024, "team_id": 2, "pos": "G", "group": "Youth"},
@@ -262,19 +314,20 @@
       "player_name": "Ian Sunwoo",
       "player_id": 36,
       "pos": "PG",
-      "active": "False"
+      "active": "Ret"
     },
     {
       "player_name": "James Won",
       "player_id": 37,
       "pos": "G",
-      "active": "False"
+      "active": "Ret"
     },
     {
       "player_name": "Ryan Won",
       "player_id": 38,
       "active_group": "Singles",
       "active": "True",
+      "champ": "y",
       "seasons":
       [{"year": 2025, "team_id": 2, "pos": "PG", "group": "Singles"},
        {"year": 2024, "team_id": 1, "pos": "G", "group": "Singles"},
@@ -286,6 +339,10 @@
       "player_name": "Jaiyup Yoo",
       "player_id": 39,
       "pos": "F",
+      "champ": "y",
+      "award": "y",
+      "awards":
+      [{"year": 2023, "edition": "(13th)", "name": "Defensive Player of the Year"}],
       "active": "False"
     },
     {
@@ -310,13 +367,13 @@
       "player_name": "Timmy Sohn",
       "player_id": 42,
       "pos": "SG",
-      "active": "False"
+      "active": "Ret"
     },
     {
       "player_name": "Daniel Kim",
       "player_id": 43,
       "pos": "G",
-      "active": "False"
+      "active": "Ret"
     },
     {
       "player_name": "Joshua Ha",
@@ -354,6 +411,9 @@
       "player_name": "Jeremy Park",
       "player_id": 48,
       "pos": "SF",
+      "award": "y",
+      "awards":
+      [{"year": 2023, "edition": "(13th)", "name": "Sportmanship Award"}],
       "active": "False"
     },
     {
@@ -361,6 +421,9 @@
       "player_id": 49,
       "active_group": "Youth",
       "active": "True",
+      "award": "y",
+      "awards":
+      [{"year": 2023, "edition": "(13th)", "name": "Rookie of the Year"}],
       "seasons":
       [{"year": 2025, "team_id": 2, "pos": "SG", "group": "Youth"},
        {"year": 2024, "team_id": 4, "pos": "SG", "group": "Youth"},
@@ -370,13 +433,18 @@
       "player_name": "John Hwang",
       "player_id": 50,
       "pos": "G",
-      "active": "False"
+      "champ": "y",
+      "active": "Ret"
     },
     {
       "player_name": "Minwoo Lee",
       "player_id": 51,
       "pos": "PG",
-      "active": "False"
+      "champ": "y",
+      "award": "y",
+      "awards":
+      [{"year": 2023, "edition": "(13th)", "name": "Most Valuable Player"}],
+      "active": "Ret"
     },
     {
       "player_name": "Andrew Kim",
@@ -388,25 +456,33 @@
       "player_name": "Brandon Oh",
       "player_id": 53,
       "pos": "SF",
+      "champ": "y",
+      "award": "y",
+      "awards":
+      [{"year": 2024, "edition": "(14th)", "name": "Sportmanship Award"}],
       "active": "False"
     },
     {
       "player_name": "Jun Jang",
       "player_id": 54,
       "pos": "SF",
+      "champ": "y",
       "active": "False"
     },
     {
       "player_name": "Junhee Kim",
       "player_id": 55,
       "pos": "G",
-      "active": "False"
+      "active": "Ret"
     },
     {
       "player_name": "Justin Hong",
       "player_id": 56,
       "active_group": "Youth",
       "active": "True",
+      "award": "y",
+      "awards":
+      [{"year": 2024, "edition": "(14th)", "name": "Rookie of the Year"}],
       "seasons":
       [{"year": 2025, "team_id": 3, "pos": "SG", "group": "Singles"},
         {"year": 2024, "team_id": 5, "pos": "SG", "group": "Singles"},]

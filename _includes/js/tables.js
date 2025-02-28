@@ -69,3 +69,19 @@ $(document).ready( function () {
         ]
     });
     } );
+
+$(document).ready( function () {
+    $('table.display6').DataTable({
+        paging: false,
+        searching: false,
+        info: false,
+        order: [[ 0, "dsc" ]],
+        columnDefs: [ { orderable: false, targets: [1, 4] }],
+        aoColumnDefs: [
+            {
+                orderSequence: ["desc", "asc"],
+                aTargets: ['_all']
+            }
+        ]
+    });
+    } );
