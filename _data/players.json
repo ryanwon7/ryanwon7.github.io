@@ -122,8 +122,7 @@
       "player_id": 10,
       "active": "Ret",
       "seasons":
-      [{"year": 2023, "team_id": 4, "pos": "G", "group": "Youth"},
-       {"year": 2019, "team_id": 5, "pos": "G", "group": "Youth"}]
+      [{"year": 2023, "team_id": 4, "pos": "G", "group": "Youth"}]
     },
     {
       "player_name": "Domin Kim",
@@ -176,7 +175,7 @@
         {"year": 2022, "team_id": 3, "pos": "F", "group": "Youth"}]
     },
     {
-      "player_name": "David Lee",
+      "player_name": "David Lee (Guam)",
       "player_id": 16,
       "active": "Ret",
       "award": "y",
@@ -504,7 +503,7 @@
       [{"year": 2023, "team_id": 2, "pos": "SG", "group": "Youth"}]
     },
     {
-      "player_name": "Daniel Kim",
+      "player_name": "Daniel Kim (Paka)",
       "player_id": 43,
       "active": "Ret",
       "champ": "y",

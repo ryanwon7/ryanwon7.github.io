@@ -1203,7 +1203,7 @@
       "blk": 1 
     },
     {
-      "player_id": 43,
+      "player_id": 10,
       "player_name": "Daniel Kim",
       "game_id": 2,
       "team_id": 4,
@@ -1283,7 +1283,7 @@
       "blk": 0 
     },
     {
-      "player_id": 43,
+      "player_id": 10,
       "player_name": "Daniel Kim",
       "game_id": 5,
       "team_id": 4,
@@ -1363,7 +1363,7 @@
       "blk": 0 
     },
     {
-      "player_id": 43,
+      "player_id": 10,
       "player_name": "Daniel Kim",
       "game_id": 8,
       "team_id": 4,
@@ -1443,7 +1443,7 @@
       "blk": 0 
     },
     {
-      "player_id": 43,
+      "player_id": 10,
       "player_name": "Daniel Kim",
       "game_id": 9,
       "team_id": 4,
@@ -1523,7 +1523,7 @@
       "blk": 0 
     },
     {
-      "player_id": 43,
+      "player_id": 10,
       "player_name": "Daniel Kim",
       "game_id": 11,
       "team_id": 4,
