@@ -7,7 +7,7 @@ script: stats_longer
 layout: default
 datatable: true
 ---
-<h2> Total Season and Playoff Stats ({){{page.year}}) </h2>
+<h2> Total Season and Playoff Stats ({{page.year}}) </h2>
 <table class="display">
   <caption style="text-align: center;"><b>GP</b> = Games Played</caption>
   <colgroup>
