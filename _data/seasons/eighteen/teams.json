@@ -1,0 +1,73 @@
+{
+	"godsquad":
+	{
+		"team_id": 1,
+		"name": "God Squad",
+		"tag": "GS",
+		"captain": "Jaiyup Yoo",
+		"season": 2018,
+		"wins": 1,
+		"losses": 2,
+		"seed": 3,
+		"result": "3rd Place",
+		"players":
+		[{"name": "Jaiyup Yoo", "player_id": 39},
+		{"name": "Eugene Kim", "player_id": 13},
+		{"name": "Ryan Lee", "player_id": 19},
+		{"name": "James Won", "player_id": 37},
+		{"name": "Adin Kim", "player_id": 7},]
+	},
+	"teamcross":
+	{
+		"team_id": 2,
+		"name": "Team Cross",
+		"tag": "TC",
+		"captain": "Bryce Kim",
+		"season": 2018,
+		"wins": 3,
+		"losses": 0,
+		"seed": 1,
+		"result": "Lost in Finals",
+		"players":
+		[{"name": "Bryce Kim", "player_id": 8},
+		{"name": "Ryan Won", "player_id": 38},
+		{"name": "David Lee", "player_id": 16},
+		{"name": "Eric Moon", "player_id": 26}]
+	},
+	"heavenly":
+	{
+		"team_id": 3,
+		"name": "Heavenly Warriors",
+		"tag": "HW",
+		"captain": "Daniel Ro",
+		"season": 2018,
+		"wins": 0,
+		"losses": 3,
+		"seed": 4,
+		"result": "4th Place",
+		"players":
+		[{"name": "Daniel Ro", "player_id": 33},
+		{"name": "Edward Kim", "player_id": 12},
+		{"name": "Kyle Ju", "player_id": 4},
+		{"name": "Daniel Moon", "player_id": 24},
+		{"name": "Urim Lee", "player_id": 20}]
+	},
+	"mulagang":
+	{
+		"team_id": 4,
+		"name": "Mula Gang",
+		"tag": "MG",
+		"captain": "Sahn Yoon",
+		"season": 2018,
+		"wins": 2,
+		"losses": 1,
+		"seed": 2,
+		"result": "Champions",
+		"players":
+		[{"name": "Sahn Yoon", "player_id": 41},
+		{"name": "Abe Park", "player_id": 28},
+		{"name": "Dan Kim", "player_id": 9},
+		{"name": "David Moon", "player_id": 25},
+		{"name": "Daniel Kim", "player_id": 10}]
+	}
+}

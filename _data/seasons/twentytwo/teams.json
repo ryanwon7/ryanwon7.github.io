@@ -8,7 +8,7 @@
 		"season": 2022,
 		"wins": 3,
 		"losses": 1,
-		"result": "Lost SF",
+		"result": "Lost in Semi Finals",
 		"seed": 1,
 		"players":
 		[{"name": "Sahn Yoon", "player_id": 31},
@@ -27,7 +27,7 @@
 		"season": 2022,
 		"wins": 0,
 		"losses": 4,
-		"result": "Lost QF",
+		"result": "Lost in Quarter Finals",
 		"seed": 5,
 		"players":
 		[{"name": "Bryce Kim", "player_id": 8},
@@ -83,7 +83,7 @@
 		"wins": 3,
 		"losses": 1,
 		"seed": 3,
-		"result": "Lost SF",
+		"result": "Lost in Semi Finals",
 		"players":
 		[{"name": "Joseph Jung", "player_id": 6},
 		{"name": "Jun Sung Park", "player_id": 30},

@@ -46,7 +46,11 @@ datatable: true
   				<td>{{season.pos}}</td>
   			{% endif %}
   		{% endfor %}
+  		{% if player_yp == 0 %}
+  		<td>New</td>
+  		{% else %}
   		<td>{{player_yp}}</td>
+  		{% endif %}
   	</tr>
 {% endfor %}
 {% endif %}

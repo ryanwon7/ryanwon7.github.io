@@ -9,7 +9,7 @@
 		"wins": 2,
 		"losses": 3,
 		"seed": 3,
-		"result": "Lost SF",
+		"result": "Lost in Semi Finals",
 		"players":
 		[{"name": "Sahn Yoon", "player_id": 41},
 		{"name": "Kyle Ju", "player_id": 4},
@@ -27,7 +27,7 @@
 		"wins": 1,
 		"losses": 4,
 		"seed": 6,
-		"result": "Lost QF",
+		"result": "Lost in Quarter Finals",
 		"players":
 		[{"name": "Bryce Kim", "player_id": 8},
 		{"name": "Elijah Park", "player_id": 29},
@@ -46,7 +46,7 @@
 		"wins": 1,
 		"losses": 4,
 		"seed": 5,
-		"result": "Lost QF",
+		"result": "Lost in Quarter Finals",
 		"players":
 		[{"name": "Caleb Jung", "player_id": 5},
 		{"name": "Eugene Kim", "player_id": 13},
@@ -65,7 +65,7 @@
 		"wins": 5,
 		"losses": 0,
 		"seed": 1,
-		"result": "Lost SF",
+		"result": "Lost in Semi Finals",
 		"players":
 		[{"name": "Dan Kim", "player_id": 9},
 		{"name": "Daniel Moon", "player_id": 24},

@@ -104,6 +104,22 @@ layout: default
 					{{team.name}}</a></p>
 			{% endif %}
 			{% endfor %}
+		{% elsif season.year == 2019 %}
+			{% for team_hash in site.data.seasons.nineteen.teams %}
+			{% assign team = team_hash[1] %}
+			{% if team.captain == player.player_name %}
+				<p style="margin:0">&nbsp;&nbsp;&nbsp;&nbsp;- {{season.year}} (10th), <a href="/{{season.year}}/teams/team{{team.team_id}}">
+					{{team.name}}</a></p>
+			{% endif %}
+			{% endfor %}
+		{% elsif season.year == 2018 %}
+			{% for team_hash in site.data.seasons.eighteen.teams %}
+			{% assign team = team_hash[1] %}
+			{% if team.captain == player.player_name %}
+				<p style="margin:0">&nbsp;&nbsp;&nbsp;&nbsp;- {{season.year}} (9th), <a href="/{{season.year}}/teams/team{{team.team_id}}">
+					{{team.name}}</a></p>
+			{% endif %}
+			{% endfor %}
 		{% endif %}
 	{% endfor %}
 {% endif %}
@@ -200,6 +216,40 @@ layout: default
   		<tr>
   			<td> 2020 (11th) </td>
   		{% for team_hash in site.data.seasons.twenty.teams %}
+			{% assign team = team_hash[1] %}
+			{% if team.team_id == season.team_id %}
+				<td><a href="/{{season.year}}/teams/team{{team.team_id}}">{{team.name}}</a>
+				{% if team.captain == player.player_name %}
+				(C)
+				{% endif %}
+				</td>
+				<td>{{team.wins}}</td>
+				<td>{{team.losses}}</td>
+				<td><a href="/{{season.year}}/playoffs">{{team.result}}</a></td>
+			{% endif %}
+		{% endfor %}
+		</tr>
+  	{% elsif season.year == 2019 %}
+  		<tr>
+  			<td> 2019 (10th) </td>
+  		{% for team_hash in site.data.seasons.nineteen.teams %}
+			{% assign team = team_hash[1] %}
+			{% if team.team_id == season.team_id %}
+				<td><a href="/{{season.year}}/teams/team{{team.team_id}}">{{team.name}}</a>
+				{% if team.captain == player.player_name %}
+				(C)
+				{% endif %}
+				</td>
+				<td>{{team.wins}}</td>
+				<td>{{team.losses}}</td>
+				<td><a href="/{{season.year}}/playoffs">{{team.result}}</a></td>
+			{% endif %}
+		{% endfor %}
+		</tr>
+  	{% elsif season.year == 2018 %}
+  		<tr>
+  			<td> 2018 (9th) </td>
+  		{% for team_hash in site.data.seasons.eighteen.teams %}
 			{% assign team = team_hash[1] %}
 			{% if team.team_id == season.team_id %}
 				<td><a href="/{{season.year}}/teams/team{{team.team_id}}">{{team.name}}</a>

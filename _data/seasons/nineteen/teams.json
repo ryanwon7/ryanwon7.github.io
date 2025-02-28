@@ -1,0 +1,92 @@
+{
+	"fiveinone":
+	{
+		"team_id": 1,
+		"name": "5in1",
+		"tag": "5N1",
+		"captain": "David Yoon",
+		"season": 2019,
+		"wins": 0,
+		"losses": 4,
+		"seed": 5,
+		"result": "Lost in Quarter Finals",
+		"players":
+		[{"name": "David Yoon", "player_id": 40},
+		{"name": "Caleb Jung", "player_id": 5},
+		{"name": "Eugene Kim", "player_id": 13},
+		{"name": "Urim Lee", "player_id": 20},
+		{"name": "Isaac Sohn", "player_id": 34}]
+	},
+	"liljesus":
+	{
+		"team_id": 2,
+		"name": "Lil Jesus",
+		"tag": "LJ",
+		"captain": "Sahn Yoon",
+		"season": 2019,
+		"wins": 2,
+		"losses": 2,
+		"seed": 4,
+		"result": "Lost in Semi Finals",
+		"players":
+		[{"name": "Sahn Yoon", "player_id": 41},
+		{"name": "Adin Kim", "player_id": 7},
+		{"name": "Kyle Ju", "player_id": 4},
+		{"name": "Alan Moon", "player_id": 22},
+		{"name": "Daniel Moon", "player_id": 24},]
+	},
+	"locusts":
+	{
+		"team_id": 3,
+		"name": "Locusts and Wild Honey",
+		"tag": "LWH",
+		"captain": "Daniel Ro",
+		"season": 2019,
+		"wins": 2,
+		"losses": 2,
+		"seed": 3,
+		"result": "Champions",
+		"players":
+		[{"name": "Daniel Ro", "player_id": 33},
+		{"name": "Andy Moon", "player_id": 23},
+		{"name": "Brandon McDonnell", "player_id": 21},
+		{"name": "Jaiyup Yoo", "player_id": 39},
+		{"name": "Ryan Won", "player_id": 38}]
+	},
+	"highsandlows":
+	{
+		"team_id": 4,
+		"name": "Highs and Lows",
+		"tag": "HNL",
+		"captain": "Dan Kim",
+		"season": 2019,
+		"wins": 3,
+		"losses": 1,
+		"seed": 1,
+		"result": "Lost in Finals",
+		"players":
+		[{"name": "Dan Kim", "player_id": 9},
+		{"name": "Bryce Kim", "player_id": 8},
+		{"name": "Calvin Hong", "player_id": 3},
+		{"name": "Edward Kim", "player_id": 12},
+		{"name": "Eric Moon", "player_id": 26}]
+	},
+	"blackpink":
+	{
+		"team_id": 5,
+		"name": "Blackpink",
+		"tag": "BP",
+		"captain": "David Lee",
+		"season": 2019,
+		"wins": 3,
+		"losses": 1,
+		"seed": 2,
+		"result": "Lost in Semi Finals",
+		"players":
+		[{"name": "David Lee", "player_id": 16},
+		{"name": "Andy Byun", "player_id": 1},
+		{"name": "Daniel Kim", "player_id": 10},
+		{"name": "Abe Park", "player_id": 28},
+		{"name": "Ryan Lee", "player_id": 19},]
+	}
+}

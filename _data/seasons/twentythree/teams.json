@@ -45,7 +45,7 @@
 		"wins": 1,
 		"losses": 3,
 		"seed": 4,
-		"result": "Lost SF",
+		"result": "Lost in Semi Finals",
 		"players":
 		[{"name": "Ian Sunwoo", "player_id": 36},
 		{"name": "Caleb Jung", "player_id": 5},
@@ -64,7 +64,7 @@
 		"wins": 2,
 		"losses": 2,
 		"seed": 3,
-		"result": "Lost SF",
+		"result": "Lost in Semi Finals",
 		"players":
 		[{"name": "Joseph Jung", "player_id": 6},
 		{"name": "Eric Moon", "player_id": 26},

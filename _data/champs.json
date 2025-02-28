@@ -24,5 +24,17 @@
       "team_id": 6,
       "team_name": "Unending Prophets"
     },
+    {
+      "year": 2019,
+      "edition": "(10th)",
+      "team_id": 3,
+      "team_name": "Locusts and Wild Honey"
+    },
+    {
+      "year": 2018,
+      "edition": "(9th)",
+      "team_id": 4,
+      "team_name": "Mula Gang"
+    },
   ]
 }

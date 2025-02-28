@@ -9,7 +9,7 @@
 		"wins": 0,
 		"losses": 4,
 		"seed": 5,
-		"result": "Lost SF",
+		"result": "Lost in Semi Finals",
 		"players":
 		[{"name": "Ryan Won", "player_id": 38},
 		{"name": "Adin Kim", "player_id": 26},
@@ -45,7 +45,7 @@
 		"wins": 1,
 		"losses": 3,
 		"seed": 4,
-		"result": "Lost QF",
+		"result": "Lost in Quarter Finals",
 		"players":
 		[{"name": "Caleb Jung", "player_id": 5},
 		{"name": "Daniel Lee", "player_id": 15},
@@ -63,7 +63,7 @@
 		"wins": 3,
 		"losses": 1,
 		"seed": 3,
-		"result": "Lost SF",
+		"result": "Lost in Semi Finals",
 		"players":
 		[{"name": "Joseph Jung", "player_id": 6},
 		{"name": "Alex Hong", "player_id": 49},
