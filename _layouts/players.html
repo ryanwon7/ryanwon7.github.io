@@ -60,6 +60,53 @@ layout: default
 		<p style="margin:0">&nbsp;&nbsp;&nbsp;&nbsp;- {{award.year}} {{award.edition}}, <a href="/{{award.year}}/awards">{{award.name}}</a></p>
 	{% endfor %}
 {% endif %}
+{% if player.cap == "y" %}
+	<br>
+	<p style="margin:0">Team Captain:</p>
+	{% for season in player.seasons %}
+		{% if season.year == 2025 %}
+			{% for team_hash in site.data.seasons.twentyfive.teams %}
+			{% assign team = team_hash[1] %}
+			{% if team.captain == player.player_name %}
+				<p style="margin:0">&nbsp;&nbsp;&nbsp;&nbsp;- {{season.year}} (15th), <a href="/{{season.year}}/teams/team{{team.team_id}}">
+					{{team.name}}</a></p>
+			{% endif %}
+			{% endfor %}
+		{% elsif season.year == 2024 %}
+			{% for team_hash in site.data.seasons.twentyfour.teams %}
+			{% assign team = team_hash[1] %}
+			{% if team.captain == player.player_name %}
+				<p style="margin:0">&nbsp;&nbsp;&nbsp;&nbsp;- {{season.year}} (14th), <a href="/{{season.year}}/teams/team{{team.team_id}}">
+					{{team.name}}</a></p>
+			{% endif %}
+			{% endfor %}
+		{% elsif season.year == 2023 %}
+			{% for team_hash in site.data.seasons.twentythree.teams %}
+			{% assign team = team_hash[1] %}
+			{% if team.captain == player.player_name %}
+				<p style="margin:0">&nbsp;&nbsp;&nbsp;&nbsp;- {{season.year}} (13th), <a href="/{{season.year}}/teams/team{{team.team_id}}">
+					{{team.name}}</a></p>
+			{% endif %}
+			{% endfor %}
+		{% elsif season.year == 2022 %}
+			{% for team_hash in site.data.seasons.twentytwo.teams %}
+			{% assign team = team_hash[1] %}
+			{% if team.captain == player.player_name %}
+				<p style="margin:0">&nbsp;&nbsp;&nbsp;&nbsp;- {{season.year}} (12th), <a href="/{{season.year}}/teams/team{{team.team_id}}">
+					{{team.name}}</a></p>
+			{% endif %}
+			{% endfor %}
+		{% elsif season.year == 2020 %}
+			{% for team_hash in site.data.seasons.twenty.teams %}
+			{% assign team = team_hash[1] %}
+			{% if team.captain == player.player_name %}
+				<p style="margin:0">&nbsp;&nbsp;&nbsp;&nbsp;- {{season.year}} (11th), <a href="/{{season.year}}/teams/team{{team.team_id}}">
+					{{team.name}}</a></p>
+			{% endif %}
+			{% endfor %}
+		{% endif %}
+	{% endfor %}
+{% endif %}
 <br>
 <h5><u> Player History </u></h5>
 <table class="display6">
@@ -87,7 +134,11 @@ layout: default
   		{% for team_hash in site.data.seasons.twentyfive.teams %}
 			{% assign team = team_hash[1] %}
 			{% if team.team_id == season.team_id %}
-				<td><a href="/{{season.year}}/teams/team{{team.team_id}}">{{team.name}}</a></td>
+				<td><a href="/{{season.year}}/teams/team{{team.team_id}}">{{team.name}}</a>
+				{% if team.captain == player.player_name %}
+				(C)
+				{% endif %}
+				</td>
 				<td>{{team.wins}}</td>
 				<td>{{team.losses}}</td>
 				<td>{{team.result}}</td>
@@ -100,7 +151,11 @@ layout: default
   		{% for team_hash in site.data.seasons.twentyfour.teams %}
 			{% assign team = team_hash[1] %}
 			{% if team.team_id == season.team_id %}
-				<td><a href="/{{season.year}}/teams/team{{team.team_id}}">{{team.name}}</a></td>
+				<td><a href="/{{season.year}}/teams/team{{team.team_id}}">{{team.name}}</a>
+				{% if team.captain == player.player_name %}
+				(C)
+				{% endif %}
+				</td>
 				<td>{{team.wins}}</td>
 				<td>{{team.losses}}</td>
 				<td><a href="/{{season.year}}/playoffs">{{team.result}}</a></td>
@@ -113,7 +168,11 @@ layout: default
   		{% for team_hash in site.data.seasons.twentythree.teams %}
 			{% assign team = team_hash[1] %}
 			{% if team.team_id == season.team_id %}
-				<td><a href="/{{season.year}}/teams/team{{team.team_id}}">{{team.name}}</a></td>
+				<td><a href="/{{season.year}}/teams/team{{team.team_id}}">{{team.name}}</a>
+				{% if team.captain == player.player_name %}
+				(C)
+				{% endif %}
+				</td>
 				<td>{{team.wins}}</td>
 				<td>{{team.losses}}</td>
 				<td><a href="/{{season.year}}/playoffs">{{team.result}}</a></td>
@@ -126,7 +185,11 @@ layout: default
   		{% for team_hash in site.data.seasons.twentytwo.teams %}
 			{% assign team = team_hash[1] %}
 			{% if team.team_id == season.team_id %}
-				<td><a href="/{{season.year}}/teams/team{{team.team_id}}">{{team.name}}</a></td>
+				<td><a href="/{{season.year}}/teams/team{{team.team_id}}">{{team.name}}</a>
+				{% if team.captain == player.player_name %}
+				(C)
+				{% endif %}
+				</td>
 				<td>{{team.wins}}</td>
 				<td>{{team.losses}}</td>
 				<td><a href="/{{season.year}}/playoffs">{{team.result}}</a></td>
@@ -139,7 +202,11 @@ layout: default
   		{% for team_hash in site.data.seasons.twenty.teams %}
 			{% assign team = team_hash[1] %}
 			{% if team.team_id == season.team_id %}
-				<td><a href="/{{season.year}}/teams/team{{team.team_id}}">{{team.name}}</a></td>
+				<td><a href="/{{season.year}}/teams/team{{team.team_id}}">{{team.name}}</a>
+				{% if team.captain == player.player_name %}
+				(C)
+				{% endif %}
+				</td>
 				<td>{{team.wins}}</td>
 				<td>{{team.losses}}</td>
 				<td><a href="/{{season.year}}/playoffs">{{team.result}}</a></td>
@@ -150,3 +217,7 @@ layout: default
   {% endfor %}
   </tbody>
  </table>
+ <br>
+ <div style="display: flex; justify-content: center; align-items: center;">
+  <button type="button" onclick="window.history.back()">Go Back</button>
+</div>

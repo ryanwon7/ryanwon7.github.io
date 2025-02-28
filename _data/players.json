@@ -7,7 +7,7 @@
       "active": "Ret"
     },
     {
-      "player_name": "Song Seng Geu",
+      "player_name": "Steve Song",
       "player_id": 2,
       "pos": "C",
       "champ": "y",
@@ -39,6 +39,7 @@
       "player_name": "Caleb Jung",
       "player_id": 5,
       "active_group": "Singles",
+      "cap": "y",
       "active": "True",
       "seasons":
       [{"year": 2025, "team_id": 3, "pos": "F", "group": "Singles"},
@@ -53,6 +54,7 @@
       "active_group": "College",
       "active": "True",
       "award": "y",
+      "cap": "y",
       "awards":
       [{"year": 2020, "edition": "(11th)", "name": "Defensive Player of the Year"}],
       "seasons":
@@ -82,6 +84,7 @@
       "player_name": "Bryce Kim",
       "player_id": 8,
       "active": "Ret",
+      "cap": "y",
       "seasons":
       [{"year": 2024, "team_id": 1, "pos": "C", "group": "College"},
         {"year": 2022, "team_id": 2, "pos": "C", "group": "College"},
@@ -91,6 +94,7 @@
       "player_name": "Dan Kim",
       "player_id": 9,
       "champ": "y",
+      "cap": "y",
       "active": "Ret",
       "seasons":
       [{"year": 2022, "team_id": 4, "pos": "F", "group": "College"},
@@ -114,6 +118,7 @@
       "player_name": "Edward Kim",
       "player_id": 12,
       "champ": "y",
+      "cap": "y",
       "active": "Ret",
       "seasons":
       [{"year": 2020, "team_id": 6, "pos": "G", "group": "Youth"}]
@@ -261,6 +266,7 @@
       "player_id": 26,
       "active": "True",
       "award": "y",
+      "cap": "y",
       "awards":
       [{"year": 2022, "edition": "(12th)", "name": "Defensive Player of the Year"}],
       "seasons":
@@ -300,7 +306,7 @@
         {"year": 2020, "team_id": 2, "pos": "G", "group": "Youth"}]
     },
     {
-      "player_name": "JunSung Park",
+      "player_name": "Junsung Park",
       "player_id": 30,
       "active": "Ret",
       "seasons":
@@ -316,7 +322,7 @@
         {"year": 2020, "team_id": 2, "pos": "C", "group": "Adults"}]
     },
     {
-      "player_name": "YongSang Park",
+      "player_name": "Yongsang Park",
       "player_id": 32,
       "active": "False",
       "seasons":
@@ -360,6 +366,7 @@
     {
       "player_name": "Ian Sunwoo",
       "player_id": 36,
+      "cap": "y",
       "active": "Ret",
       "seasons":
       [{"year": 2023, "team_id": 3, "pos": "PG", "group": "Singles"},
@@ -376,6 +383,7 @@
       "player_id": 38,
       "active_group": "Singles",
       "active": "True",
+      "cap": "y",
       "champ": "y",
       "seasons":
       [{"year": 2025, "team_id": 2, "pos": "PG", "group": "Singles"},
@@ -389,6 +397,7 @@
       "player_id": 39,
       "champ": "y",
       "award": "y",
+      "cap": "y",
       "awards":
       [{"year": 2023, "edition": "(13th)", "name": "Defensive Player of the Year"}],
       "active": "False",
@@ -409,6 +418,7 @@
       "player_id": 41,
       "active_group": "Singles",
       "active": "True",
+      "cap": "y",
       "seasons":
       [{"year": 2025, "team_id": 1, "pos": "SF", "group": "Singles"},
        {"year": 2024, "team_id": 5, "pos": "S", "group": "Singles"},
@@ -460,10 +470,9 @@
     {
       "player_name": "Christian Kim",
       "player_id": 47,
-      "pos": "C",
       "active": "False",
       "seasons":
-      [{"year": 2023, "team_id": 3, "pos": "PG", "group": "Singles"}]
+      [{"year": 2023, "team_id": 3, "pos": "C", "group": "Singles"}]
     },
     {
       "player_name": "Jeremy Park",
@@ -503,6 +512,7 @@
       "player_id": 51,
       "champ": "y",
       "award": "y",
+      "cap": "y",
       "awards":
       [{"year": 2023, "edition": "(13th)", "name": "Most Valuable Player"}],
       "active": "Ret",

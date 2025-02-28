@@ -85,3 +85,18 @@ $(document).ready( function () {
         ]
     });
     } );
+
+$(document).ready( function () {
+    $('table.display7').DataTable({
+        paging: true,
+        searching: true,
+        info: false,
+        order: [[ 0, "asc" ]],
+        aoColumnDefs: [
+            {
+                orderSequence: ["desc", "asc"],
+                aTargets: ['_all']
+            }
+        ]
+    });
+    } );
