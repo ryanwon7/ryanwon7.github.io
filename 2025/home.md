@@ -29,7 +29,7 @@ datatable: true
   <tbody>
     {% for game in site.data.seasons.twentyfive.games %}
     {% assign match = game[1] %}
-    {% if match.game_id == 5 or match.game_id == 6 %}
+    {% if match.game_id == 7 or match.game_id == 8 %}
     {% assign home = site.data.seasons.twentyfive.teams[match.home_team_name] %}
     {% assign away = site.data.seasons.twentyfive.teams[match.away_team_name] %}
       <tr>
