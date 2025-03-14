@@ -140,9 +140,9 @@
     "time": "3:30 PM",
     "stage": "reg",
     "type": " Week 5",
-    "fin": "no",
-    "home_score": 0,
-    "away_score": 0,
+    "fin": "yes",
+    "home_score": 53,
+    "away_score": 63,
   },
   "game10":
   {
@@ -156,9 +156,9 @@
     "time": "4:00 PM",
     "stage": "reg",
     "type": " Week 5",
-    "fin": "no",
-    "home_score": 0,
-    "away_score": 0,
+    "fin": "yes",
+    "home_score": 44,
+    "away_score": 47,
   },
   "game11":
   {
